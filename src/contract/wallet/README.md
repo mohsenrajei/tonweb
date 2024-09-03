@@ -1,6 +1,9 @@
 # tonweb-contract-wallet
 
-Part of [TonWeb](https://github.com/toncenter/tonweb).
+Part otonweb.wallet.all
+-> {SimpleWalletContract, StandardWalletContract, WalletV3Contract}
+
+const simpleWallet = new tonweb.wallet.all.SimpleWalletContract({publicKey})
 
 Interaction with wallet's smart contracts.
 
@@ -8,7 +11,7 @@ Interaction with wallet's smart contracts.
 
 There is currently no single standard wallet in TON.
 
-This code implements wallet's smart contracts published in the [TON repository](https://github.com/ton-blockchain/ton/tree/master/crypto/smartcont).
+This code implements wallet's smart contracts published in the [TON repository](https://github.com/ton-blockchain/ton/tree/master/crypEQDf556nR6YJyZpeERGxPmKDzpJo1QuHldT3H7pbm-faGQvY
 
 They all have almost the same interface.
 
